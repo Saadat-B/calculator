@@ -17,7 +17,7 @@
     margin-top: 10px;
     padding: 20px;
     border: 1px solid red;
-    background: linear-gradient(#a8edf1, #f6f6f8);
+    background: linear-gradient(#1caef7, #f595e5);
 }
 
 
@@ -29,6 +29,7 @@
     width: 500px;
     margin: auto;
     border: 1px solid black;
+    border-radius: 5px;
 }
 
 /* SCREEN  */
@@ -44,10 +45,11 @@
     margin-bottom: 2px;
     border: 1px solid red;
     background-color: rgba(48, 248, 8, 0.589);
-    font-size: larger;
+    font-size: 76px;
     font-weight: bolder;
     font-family: 'Courier New', Courier, monospace;
     color: black;
+    border-radius: 5px;
 }
 
 
@@ -59,10 +61,11 @@
     width: 99%;
     margin: auto;
     background-color: white;
-    font-size: larger;
+    font-size: 40px;
     font-weight: bolder;
     font-family: 'Courier New', Courier, monospace;
     color: white;
+    border-radius: 5px;
 }
 
 /* LEVEL 1 */
@@ -318,4 +321,11 @@
     border-radius: 10px;
     background-color: #FF8F1F;
 
+}
+
+
+/* HIGHLIGHT */
+
+.highlight{
+    box-shadow: 0 0 10px black;
 }
